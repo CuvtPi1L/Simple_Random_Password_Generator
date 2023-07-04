@@ -21,10 +21,9 @@ function get_password(){
 function button_get_password(){
     //if I just creat more objects, might make it work, but way messer
     get_password();
-    sure = password;
     console.log(`I'm sure ${password}`);
     var init = document.getElementById("jeb");
-    init.value = sure //can't put value behind object unless a input 
+   init.value = password;
 }
 
 
