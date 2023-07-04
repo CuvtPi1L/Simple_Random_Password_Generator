@@ -11,24 +11,21 @@ function get_password(){
         password += chars.substring(randomNumber,randomNumber +1);
         console.log(password);
     }
+    //password gen functiom
     console.log(`fin ${password}`)
-    document.getElementById("jeb").innerHTML = "1234567";
 }
 
-// function get_password(){
-//     for (var i=0; i <= passwordLength; i++){
-//         var randomNumber = Math.floor(Math.random()*chars.length);
-//         password += chars.substring(randomNumber,randomNumber +1);
-//     }
-//     document.getElementById('password').innerHTML= password;
-// }
 
+//first achieve gen button fucntion 
 
-console.log(password)
-
-function copyPassword(){
-    var copyText = document.getEleementById("password");
-    copyText.select();
-    document.execCommand('copy');
+function button_get_password(){
+    //if I just creat more objects, might make it work, but way messer
+    get_password();
+    sure = password;
+    console.log(`I'm sure ${password}`);
+    var init = document.getElementById("jeb");
+    init.value = sure //can't put value behind object unless a input 
 }
+
+
 
