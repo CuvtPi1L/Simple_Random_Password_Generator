@@ -1,4 +1,12 @@
-# Simple password Generator!
+# password Generator!
 
-## Homework requires a harder one
-so I'm just thinking doing something that are easier first
+here you go, it's a readme file
+I don't really want to make one 
+you can take my point
+
+
+here is a joke tho:
+[“hip”,”hip”]
+hip hip array!
+
+have a nice day!
